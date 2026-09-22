@@ -1,0 +1,140 @@
+{
+  "best_model": "EnsembleBlend",
+  "metrics": {
+    "Ridge": {
+      "RMSLE": 0.1144,
+      "RMSE_Dollar": 20605.18,
+      "MAE_Dollar": 13676.98,
+      "R2_Score": 0.9328
+    },
+    "Lasso": {
+      "RMSLE": 0.1122,
+      "RMSE_Dollar": 20509.07,
+      "MAE_Dollar": 13538.8,
+      "R2_Score": 0.9334
+    },
+    "ElasticNet": {
+      "RMSLE": 0.1133,
+      "RMSE_Dollar": 20534.74,
+      "MAE_Dollar": 13511.22,
+      "R2_Score": 0.9332
+    },
+    "RandomForest": {
+      "RMSLE": 0.1337,
+      "RMSE_Dollar": 25890.87,
+      "MAE_Dollar": 16483.66,
+      "R2_Score": 0.8939
+    },
+    "GradientBoosting": {
+      "RMSLE": 0.1185,
+      "RMSE_Dollar": 22870.29,
+      "MAE_Dollar": 14419.54,
+      "R2_Score": 0.9172
+    },
+    "EnsembleBlend": {
+      "RMSLE": 0.1108,
+      "RMSE_Dollar": 20176.91,
+      "MAE_Dollar": 13122.09,
+      "R2_Score": 0.9355
+    }
+  },
+  "sample_count": 1458,
+  "engineered_feature_count": 91,
+  "encoded_feature_count": 327,
+  "top_features": [
+    {
+      "name": "TotalSF",
+      "importance": 0.3662
+    },
+    {
+      "name": "OverallQual",
+      "importance": 0.3013
+    },
+    {
+      "name": "OverallScore",
+      "importance": 0.0566
+    },
+    {
+      "name": "TotalBath",
+      "importance": 0.052
+    },
+    {
+      "name": "GarageCars",
+      "importance": 0.0168
+    },
+    {
+      "name": "HouseAge",
+      "importance": 0.0155
+    },
+    {
+      "name": "LotArea",
+      "importance": 0.0134
+    },
+    {
+      "name": "GarageArea",
+      "importance": 0.0101
+    },
+    {
+      "name": "RemodelAge",
+      "importance": 0.01
+    },
+    {
+      "name": "YearBuilt",
+      "importance": 0.0099
+    },
+    {
+      "name": "GrLivArea",
+      "importance": 0.0096
+    },
+    {
+      "name": "1stFlrSF",
+      "importance": 0.0088
+    },
+    {
+      "name": "HasFireplace",
+      "importance": 0.0085
+    },
+    {
+      "name": "CentralAir_Y",
+      "importance": 0.0083
+    },
+    {
+      "name": "MSZoning_C (all)",
+      "importance": 0.0069
+    }
+  ],
+  "target_summary": {
+    "min": 34900.0,
+    "max": 755000.0,
+    "mean": 180932.91906721535,
+    "median": 163000.0,
+    "std": 79495.05528474765
+  },
+  "neighborhoods": [
+    "Blmngtn",
+    "Blueste",
+    "BrDale",
+    "BrkSide",
+    "ClearCr",
+    "CollgCr",
+    "Crawfor",
+    "Edwards",
+    "Gilbert",
+    "IDOTRR",
+    "MeadowV",
+    "Mitchel",
+    "NAmes",
+    "NPkVill",
+    "NWAmes",
+    "NoRidge",
+    "NridgHt",
+    "OldTown",
+    "SWISU",
+    "Sawyer",
+    "SawyerW",
+    "Somerst",
+    "StoneBr",
+    "Timber",
+    "Veenker"
+  ]
+}
