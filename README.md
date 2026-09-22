@@ -257,8 +257,4 @@ Through this project, the following skills were demonstrated:
 
 ---
 
-## 14. Author
 
-**Chetany Kalaneya**
-
-Artificial Intelligence / Machine Learning Enthusiast
